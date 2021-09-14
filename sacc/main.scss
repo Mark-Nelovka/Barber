@@ -1,0 +1,37 @@
+.page-header {
+    width: 1073px;
+    height: 680px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.nav-header__list {
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+
+}
+
+.nav-header__link {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+     &:not(:last-child) {
+         margin-right: 40px;
+     }
+     &:hover, &:focus {
+        color: #FF6C00;;
+     }
+}
+
+.contact-header {
+    display: flex;
+    align-items: center;
+}
