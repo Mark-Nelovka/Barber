@@ -5,30 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Document</title>
 </head>
 
 <body>
-    <svg class="page-header__icon" width="66" height="55">
-        <use href="./images/imgS/Sprite.svg#icon-Logo-Barber"></use>
-    </svg>
-    <header class="page-header">
-        <nav class="nav-header">
-            <ul class="nav-header__list">
-                <li class="nav-header__link">О нас</li>
-                <li class="nav-header__link">Услуги и цены</li>
-                <li class="nav-header__link">Мастера</li>
-                <li class="nav-header__link">Контакты</li>
-            </ul>
-        </nav>
-
-        <div class="contact-header">
-            <a class="contact-header__tel" href="tel:">+38 044 111 11 11</a>
-            <button class="contact-header__button" type="button">Онлайн-запись</button>
-        </div>
-
-
+    <header class="page-header container">
+        <section class="header-section">
+            <div class="header-logo">
+                <svg class="page-header__icon" width="66" height="55">
+                    <use href="./images/imgS/Sprite.svg#icon-Logo-Barber"></use>
+                </svg>
+            </div>
+            
+            
+            <nav class="nav-header">
+                <ul class="nav-header__list">
+                    <li class="nav-header__link">О нас</li>
+                    <li class="nav-header__link">Услуги и цены</li>
+                    <li class="nav-header__link">Мастера</li>
+                    <li class="nav-header__link">Контакты</li>
+                </ul>
+            </nav>
+            
+            <div class="contact-header">
+                <a class="contact-header__tel" href="tel:">+38 044 111 11 11</a>
+                <button class="contact-header__button" type="button">Онлайн-запись</button>
+            </div>
+        </section>
     </header>
 
 </body>
