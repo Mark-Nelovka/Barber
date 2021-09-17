@@ -1,3 +1,6 @@
+@import "./_utils.scss/var";
 @import "./_utils.scss/reset";
 @import "./base/base";
-@import "./header";
+@import "./_layout.scss/header";
+@import "./_layout.scss/hero";
+@import "./_layout.scss/about";

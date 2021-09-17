@@ -2,15 +2,14 @@
   display: flex;
   align-items: center;
   width: 1250px;
+  // background-image: url(../../images/imgJ/Hero.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 
 .header-logo {
-  background-color: #ffffff;
+  background-color: var(--title-second);
 }
-
-// .page-header__icon {
-//   color: #ffffff;
-// }
 
 .page-header {
   display: flex;
@@ -20,12 +19,10 @@
 
 .nav-header {
   display: flex;
-  align-items: stretch;
 }
 
 .nav-header__list {
   display: flex;
-  align-items: center;
   padding-left: 35px;
 }
 
@@ -36,7 +33,8 @@
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.1em;
-  color: #ffffff;
+  color: var(--title-second);
+  display: block;
   text-decoration: none;
   list-style: none;
   cursor: pointer;
@@ -45,19 +43,18 @@
   }
   &:hover,
   &:focus {
-    color: #ff6c00;
+    color: var(--accent-color);
   }
 }
 
 .contact-header {
   display: flex;
-  align-items: center;
+  display: block;
   margin-left: auto;
   padding-right: 8px;
 }
 
 .contact-header__tel {
-  //   display: block;
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
@@ -67,8 +64,12 @@
   text-transform: uppercase;
   list-style: none;
   text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 
-  color: #ffffff;
+  color: var(--title-second);
   margin-right: 40px;
 }
 
@@ -84,5 +85,10 @@
   border-radius: 25px;
   background-color: transparent;
   padding: 12px 20px;
-  color: #ffffff;
+  cursor: pointer;
+  color: var(--title-second);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
