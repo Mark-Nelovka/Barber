@@ -1,0 +1,95 @@
+.masters {
+  background: #f7f7f7;
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+
+// .masters__card {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+// }
+
+.masters__pre-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  // margin-left: 20px;
+  &::before {
+    content: "";
+    width: 60px;
+    height: 1px;
+    background: var(--title);
+    margin-right: 20px;
+  }
+}
+
+.masters__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  letter-spacing: 0.05em;
+  color: var(--title);
+  margin-bottom: 44px;
+}
+
+.masters__name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(25 / 18);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title);
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.masters__profession {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(19 / 14);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  margin-bottom: 30px;
+}
+
+.masters__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.masters__link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 64px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
