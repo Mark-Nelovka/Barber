@@ -27,11 +27,20 @@ p {
   }
 }
 
-@media screen and (width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 768px;
     padding-left: 159px;
     padding-right: 159px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    padding-left: 55px;
+    padding-right: 55px;
     margin: 0 auto;
   }
 }
@@ -559,6 +568,39 @@ p {
   background: #f7f7f7;
   padding-top: 84px;
   padding-bottom: 84px;
+  padding-right: 31px;
+  padding-left: 31px;
+}
+
+@media screen and (min-width: 768px) {
+  .masters {
+    padding-right: 159px;
+    padding-left: 159px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .masters {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-right: 55px;
+    padding-left: 55px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .masters__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.masters__photo:not(:last-child) {
+  margin-right: 30px;
 }
 
 .masters__pre-text {
