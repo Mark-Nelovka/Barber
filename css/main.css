@@ -38,7 +38,7 @@ p {
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    min-width: 1200px;
     padding-left: 55px;
     padding-right: 55px;
     margin: 0 auto;
@@ -568,23 +568,13 @@ p {
   background: #f7f7f7;
   padding-top: 84px;
   padding-bottom: 84px;
-  padding-right: 31px;
-  padding-left: 31px;
-}
-
-@media screen and (min-width: 768px) {
-  .masters {
-    padding-right: 159px;
-    padding-left: 159px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   .masters {
+    min-width: 1200px;
     padding-top: 130px;
     padding-bottom: 130px;
-    padding-right: 55px;
-    padding-left: 55px;
   }
 }
 
@@ -596,11 +586,24 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    min-width: 1200px;
+    margin-right: -30px;
+    -ms-flex-preferred-size: calc(100% / 3 - 30px);
+        flex-basis: calc(100% / 3 - 30px);
   }
+}
+
+.masters__photo {
+  text-decoration: none;
+  list-style: none;
 }
 
 .masters__photo:not(:last-child) {
   margin-right: 30px;
+}
+
+.masters-photo__card {
+  width: 100%;
 }
 
 .masters__pre-text {
