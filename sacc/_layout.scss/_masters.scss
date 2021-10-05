@@ -2,34 +2,44 @@
   background: #f7f7f7;
   padding-top: 84px;
   padding-bottom: 84px;
-  // padding-right: 31px;
-  // padding-left: 31px;
   @media screen and (min-width: 768px) {
-    // padding-right: 159px;
-    // padding-left: 159px;
+    padding-top: 84px;
+    padding-bottom: 84px;
   }
   @media screen and (min-width: 1200px) {
-    min-width: 1200px;
     padding-top: 130px;
     padding-bottom: 130px;
   }
 }
 
-.masters__card {
+.masters__list {
+  @media screen and (min-width: 480px) {
+    text-decoration: none;
+    list-style: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
-    align-items: center;
-    min-width: 1200px;
-    margin-right: -30px;
-    flex-basis: calc(100% / 3 - 30px);
+    text-decoration: none;
+    list-style: none;
   }
 }
 
-.masters__photo {
-  text-decoration: none;
-  list-style: none;
-  &:not(:last-child) {
-    margin-right: 30px;
+.masters__link {
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 }
 
@@ -57,9 +67,22 @@
     background: var(--title);
     margin-right: 20px;
   }
+  @media screen and (min-width: 768px) {
+    margin-left: 142px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+  }
 }
 
 .masters__title {
+  @media screen and (min-width: 768px) {
+    margin-left: 142px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+  }
+  text-align: left;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -68,6 +91,21 @@
   letter-spacing: 0.05em;
   color: var(--title);
   margin-bottom: 44px;
+}
+
+.masters__div {
+  @media screen and (min-width: 480px) {
+    width: 418px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 768px) {
+    width: 450px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 370px;
+    margin: 0 auto;
+  }
 }
 
 .masters__name {
@@ -95,7 +133,7 @@
   margin-bottom: 30px;
 }
 
-.masters__list {
+.masters__social-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,7 +141,7 @@
   list-style: none;
 }
 
-.masters__link {
+.masters__social-link {
   width: 40px;
   height: 40px;
   display: flex;
