@@ -884,4 +884,222 @@ p {
     margin-bottom: 0;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .Global {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-first {
+    background: #191c26;
+    width: 50%;
+    padding-top: 130px;
+    padding-right: 40px;
+    padding-bottom: 193px;
+    padding-left: 55px;
+  }
+}
+
+.contact-first__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--title-second);
+}
+
+.contact-first__title:not(:last-child) {
+  margin-bottom: 44px;
+}
+
+.contact-second {
+  padding-top: 84px;
+  padding-bottom: 84px;
+  background: #191c26;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../images/Mobile/Contact/img.png);
+}
+
+@media screen and (min-width: 768px) {
+  .contact-second {
+    width: 768px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #191c26;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/Tablet/Contact/img.png);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-second {
+    padding-top: 130px;
+    padding-right: 105px;
+    padding-bottom: 130px;
+    padding-left: 100px;
+    width: 50%;
+    height: 644px;
+  }
+}
+
+.contact-second__container {
+  width: 480px;
+  padding-right: 35px;
+  padding-left: 35px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-second__container {
+    width: 768px;
+    padding-right: 43px;
+    padding-left: 43px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: calc(100% / 2);
+        flex-basis: calc(100% / 2);
+  }
+}
+
+.contact-second__left {
+  width: 50%;
+}
+
+.contact-second__right {
+  width: 50%;
+  margin-left: 30px;
+}
+
+.contact-second__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: calc(49 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--title-second);
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-second__title {
+    text-align: start;
+  }
+}
+
+.contact-second__list {
+  margin-bottom: 44px;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-second__list {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-second__list {
+    margin-bottom: 70px;
+  }
+}
+
+.contact-second__link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: var(--text-fon);
+}
+
+.contact-second__link:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact-second__item {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: var(--text-fon);
+  text-decoration: none;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-second__img {
+  margin-right: 20px;
+  fill: var(--text-fon);
+}
+
+.contact-second__pre-time {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--title-second);
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-second__pre-time::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.4);
+  margin-right: 20px;
+}
+
+.contact-second__time {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: calc(30 / 18);
+  letter-spacing: 0.02em;
+  color: var(--text-fon);
+}
 /*# sourceMappingURL=main.css.map */
